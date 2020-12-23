@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+/*HEADER*/
 .logo {
   width: 155px;
   margin-top: 10px;
@@ -38,6 +41,7 @@
   justify-content: center;
   list-style-type: none;
 }
+/*MAIN*/
 .section {
   height: 100vh;
   background-color: #3cdbc0;
@@ -51,14 +55,11 @@
 }
 @media all and (min-width: 768px) {
   .header {
-    font-size: 16px;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 30px 20px 30px;
   }
+
   .section {
     font-size: 40px;
   }
